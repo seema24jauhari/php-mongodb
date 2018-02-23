@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('include/config.php');
 $dbname = 'studentMgmt.studentsdff';
 try{
 	$query = new MongoDB\Driver\Query([]); 
